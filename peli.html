@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>JobIt</title>
+
+    <meta charset="utf-8">
+
+    <link href="peliStyle_harri.css" rel="stylesheet">
+    <link rel="icon" href="ji_icon2.ico" type="image/x-icon">
+    <script src="muodonmuutos_harri.js"></script>
+    <script src="testiKaupunki.js"></script>
+    <script src="towork_harri.js"></script>
+
+</head>
+
+<body onload="setup()">
+
+    <div class="peliCont">
+
+        <div class="ylisTwo">
+
+            <img src="Art/Jobit_logo.png" alt="Jobit" id="logoPieni">
+
+        </div>
+
+        <canvas id="peliCanvas" width="512" height="512"></canvas>
+
+       
+
+    </div>
+  <!--   VAIHDA-NAPPI -->
+    <input type="button"
+           id = "vaihda"
+           onclick="changeObject()"
+           name="vaihda"
+           value="Vaihda"
+           class="vaihda">
+    
+   <!--    JATKA-NAPPI  -->
+    <input type="button"
+           id = "jatka"
+           onclick="moveToCity()"
+           name="jatka"
+           value="Jatka"
+           class="jatka">
+    
+    <!-- LOPETA TYÖPÄIVÄ NAPPI -->
+    
+    <!--<input type="button"
+           id = "lopeta"
+           onclick="getStats()"
+           name="lopeta"
+           value="Lopeta"
+           class="lopeta">-->
+    
+
+<p>&nbsp;</p>
+
+
+</body>
+
+</html>
+
